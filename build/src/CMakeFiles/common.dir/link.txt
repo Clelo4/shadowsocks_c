@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcommon.a  CMakeFiles/common.dir/common.c.o CMakeFiles/common.dir/shell.c.o CMakeFiles/common.dir/eventloop.c.o CMakeFiles/common.dir/tcprelay.c.o CMakeFiles/common.dir/udprelay.c.o CMakeFiles/common.dir/json/cJSON.c.o CMakeFiles/common.dir/encrypt.c.o CMakeFiles/common.dir/daemon.c.o CMakeFiles/common.dir/asyncdns.c.o CMakeFiles/common.dir/log.c.o
+/usr/bin/ranlib ../lib/libcommon.a

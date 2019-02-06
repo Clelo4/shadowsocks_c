@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/common.h
+ctype.h
+-
+regex.h
+-
+stdlib.h
+-
+
+/home/jack/CLionProjects/shadowsocks_c/tests/check_common.c
+check.h
+-
+common.h
+/home/jack/CLionProjects/shadowsocks_c/tests/common.h
+

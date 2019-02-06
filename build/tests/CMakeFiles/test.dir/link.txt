@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/test.dir/check_common.c.o  -o test -lpthread 

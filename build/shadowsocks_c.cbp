@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shadowsocks_c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="local">
+				<Option output="/home/jack/CLionProjects/shadowsocks_c/build/bin/local" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jack/CLionProjects/shadowsocks_c/build"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="local/fast">
+				<Option output="/home/jack/CLionProjects/shadowsocks_c/build/bin/local" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jack/CLionProjects/shadowsocks_c/build"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 local/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/jack/CLionProjects/shadowsocks_c/build/bin/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jack/CLionProjects/shadowsocks_c/build"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/jack/CLionProjects/shadowsocks_c/build/bin/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/shadowsocks_c/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jack/CLionProjects/shadowsocks_c/build"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/shadowsocks_c/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/common.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/common.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/daemon.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/daemon.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/encrypt.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/encrypt.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/eventloop.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/local.c">
+			<Option target="local"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/log.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/log.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/server.c">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/shell.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/shell.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/tcprelay.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/tcprelay.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/udprelay.c">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/udprelay.h">
+			<Option target="local"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/shadowsocks_c/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
