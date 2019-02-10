@@ -7,7 +7,9 @@ src/CMakeFiles/server.dir/asyncdns.c.o: ../src/common.h
 src/CMakeFiles/server.dir/asyncdns.c.o: ../src/encrypt.h
 src/CMakeFiles/server.dir/asyncdns.c.o: ../src/eventloop.h
 src/CMakeFiles/server.dir/asyncdns.c.o: ../src/json/cJSON.h
+src/CMakeFiles/server.dir/asyncdns.c.o: ../src/log.h
 src/CMakeFiles/server.dir/asyncdns.c.o: ../src/shell.h
+src/CMakeFiles/server.dir/asyncdns.c.o: ../src/utils/fd_map.h
 
 src/CMakeFiles/server.dir/common.c.o: ../src/common.c
 src/CMakeFiles/server.dir/common.c.o: ../src/common.h
@@ -27,7 +29,9 @@ src/CMakeFiles/server.dir/eventloop.c.o: ../src/encrypt.h
 src/CMakeFiles/server.dir/eventloop.c.o: ../src/eventloop.c
 src/CMakeFiles/server.dir/eventloop.c.o: ../src/eventloop.h
 src/CMakeFiles/server.dir/eventloop.c.o: ../src/json/cJSON.h
+src/CMakeFiles/server.dir/eventloop.c.o: ../src/log.h
 src/CMakeFiles/server.dir/eventloop.c.o: ../src/shell.h
+src/CMakeFiles/server.dir/eventloop.c.o: ../src/utils/fd_map.h
 
 src/CMakeFiles/server.dir/json/cJSON.c.o: ../src/json/cJSON.c
 src/CMakeFiles/server.dir/json/cJSON.c.o: ../src/json/cJSON.h
@@ -48,4 +52,7 @@ src/CMakeFiles/server.dir/tcprelay.c.o: ../src/tcprelay.h
 
 src/CMakeFiles/server.dir/udprelay.c.o: ../src/udprelay.c
 src/CMakeFiles/server.dir/udprelay.c.o: ../src/udprelay.h
+
+src/CMakeFiles/server.dir/utils/fd_map.c.o: ../src/utils/fd_map.c
+src/CMakeFiles/server.dir/utils/fd_map.c.o: ../src/utils/fd_map.h
 

@@ -7,7 +7,9 @@ src/CMakeFiles/local.dir/asyncdns.c.o: ../src/common.h
 src/CMakeFiles/local.dir/asyncdns.c.o: ../src/encrypt.h
 src/CMakeFiles/local.dir/asyncdns.c.o: ../src/eventloop.h
 src/CMakeFiles/local.dir/asyncdns.c.o: ../src/json/cJSON.h
+src/CMakeFiles/local.dir/asyncdns.c.o: ../src/log.h
 src/CMakeFiles/local.dir/asyncdns.c.o: ../src/shell.h
+src/CMakeFiles/local.dir/asyncdns.c.o: ../src/utils/fd_map.h
 
 src/CMakeFiles/local.dir/common.c.o: ../src/common.c
 src/CMakeFiles/local.dir/common.c.o: ../src/common.h
@@ -27,7 +29,9 @@ src/CMakeFiles/local.dir/eventloop.c.o: ../src/encrypt.h
 src/CMakeFiles/local.dir/eventloop.c.o: ../src/eventloop.c
 src/CMakeFiles/local.dir/eventloop.c.o: ../src/eventloop.h
 src/CMakeFiles/local.dir/eventloop.c.o: ../src/json/cJSON.h
+src/CMakeFiles/local.dir/eventloop.c.o: ../src/log.h
 src/CMakeFiles/local.dir/eventloop.c.o: ../src/shell.h
+src/CMakeFiles/local.dir/eventloop.c.o: ../src/utils/fd_map.h
 
 src/CMakeFiles/local.dir/json/cJSON.c.o: ../src/json/cJSON.c
 src/CMakeFiles/local.dir/json/cJSON.c.o: ../src/json/cJSON.h
@@ -38,9 +42,11 @@ src/CMakeFiles/local.dir/local.c.o: ../src/encrypt.h
 src/CMakeFiles/local.dir/local.c.o: ../src/eventloop.h
 src/CMakeFiles/local.dir/local.c.o: ../src/json/cJSON.h
 src/CMakeFiles/local.dir/local.c.o: ../src/local.c
+src/CMakeFiles/local.dir/local.c.o: ../src/log.h
 src/CMakeFiles/local.dir/local.c.o: ../src/shell.h
 src/CMakeFiles/local.dir/local.c.o: ../src/tcprelay.h
 src/CMakeFiles/local.dir/local.c.o: ../src/udprelay.h
+src/CMakeFiles/local.dir/local.c.o: ../src/utils/fd_map.h
 
 src/CMakeFiles/local.dir/log.c.o: ../src/log.c
 src/CMakeFiles/local.dir/log.c.o: ../src/log.h
@@ -56,4 +62,7 @@ src/CMakeFiles/local.dir/tcprelay.c.o: ../src/tcprelay.h
 
 src/CMakeFiles/local.dir/udprelay.c.o: ../src/udprelay.c
 src/CMakeFiles/local.dir/udprelay.c.o: ../src/udprelay.h
+
+src/CMakeFiles/local.dir/utils/fd_map.c.o: ../src/utils/fd_map.c
+src/CMakeFiles/local.dir/utils/fd_map.c.o: ../src/utils/fd_map.h
 

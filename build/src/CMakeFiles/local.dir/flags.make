@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jack/CLionProjects/shadowsocks_c/build 
+C_INCLUDES = -I/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build 
 

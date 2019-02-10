@@ -1,6 +1,6 @@
-/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles/rebuild_cache.dir
-/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles/edit_cache.dir
-/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/edit_cache.dir
-/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/local.dir
-/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/rebuild_cache.dir
-/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/server.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles/rebuild_cache.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles/edit_cache.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/edit_cache.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/local.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/rebuild_cache.dir
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/server.dir

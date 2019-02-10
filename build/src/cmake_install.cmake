@@ -1,4 +1,4 @@
-# Install script for directory: /home/jack/CLionProjects/shadowsocks_c/src
+# Install script for directory: /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

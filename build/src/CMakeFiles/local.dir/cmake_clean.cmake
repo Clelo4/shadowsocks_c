@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/local.dir/asyncdns.c.o"
   "CMakeFiles/local.dir/common.c.o"
   "CMakeFiles/local.dir/log.c.o"
+  "CMakeFiles/local.dir/utils/fd_map.c.o"
+  "CMakeFiles/local.dir/utils/lru_cache.c.o"
   "../bin/local.pdb"
   "../bin/local"
 )

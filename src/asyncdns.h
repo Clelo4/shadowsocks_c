@@ -94,13 +94,16 @@ struct DNSResponse {
 };
 
 struct DNSResolver {
-    int (*add_to_loop)(struct DNSResolver *this, struct ss_eventLoop*);
+    int (*add_to_loop)(struct DNSResolver *this, struct ss_eventLoop* loop);
+    void (*handle_periodic)(struct DNSResolver *this);
+    void (*)(struct DNSResolver *this);
     struct ss_eventLoop * _loop;
     int _sock;
 };
 
-int _add_to_loop_dns(struct DNSResolver *this, struct ss_eventLoop* loop);
+//int _add_to_loop_dns(struct DNSResolver *this, struct ss_eventLoop* loop);
 
-void init_DNSResolver(struct DNSResolver *res);
+int init_DNSResolver(struct DNSResolver *this);
+void delete_DNSResolver(struct DNSResolver *this);
 
 #endif //SHADOWSOCKS_C_ASYNCDNS_H

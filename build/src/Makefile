@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/CLion/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/CLion/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jack/CLionProjects/shadowsocks_c
+CMAKE_SOURCE_DIR = /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jack/CLionProjects/shadowsocks_c/build
+CMAKE_BINARY_DIR = /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jack/CLionProjects/shadowsocks_c/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/CLion/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/CLion/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles /home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/progress.marks
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles 0
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/src/CMakeFiles/progress.marks
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/local.dir/rule:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/local.dir/rule
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/local.dir/rule
 .PHONY : src/CMakeFiles/local.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ local: src/CMakeFiles/local.dir/rule
 
 # fast build rule for target.
 local/fast:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/build
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/build
 .PHONY : local/fast
 
 # Convenience name for target.
 src/CMakeFiles/server.dir/rule:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/server.dir/rule
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/server.dir/rule
 .PHONY : src/CMakeFiles/server.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ server: src/CMakeFiles/server.dir/rule
 
 # fast build rule for target.
 server/fast:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/build
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
 asyncdns.o: asyncdns.c.o
@@ -146,8 +146,8 @@ asyncdns.o: asyncdns.c.o
 
 # target to build an object file
 asyncdns.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.o
 .PHONY : asyncdns.c.o
 
 asyncdns.i: asyncdns.c.i
@@ -156,8 +156,8 @@ asyncdns.i: asyncdns.c.i
 
 # target to preprocess a source file
 asyncdns.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.i
 .PHONY : asyncdns.c.i
 
 asyncdns.s: asyncdns.c.s
@@ -166,8 +166,8 @@ asyncdns.s: asyncdns.c.s
 
 # target to generate assembly for a file
 asyncdns.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/asyncdns.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/asyncdns.c.s
 .PHONY : asyncdns.c.s
 
 common.o: common.c.o
@@ -176,8 +176,8 @@ common.o: common.c.o
 
 # target to build an object file
 common.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.o
 .PHONY : common.c.o
 
 common.i: common.c.i
@@ -186,8 +186,8 @@ common.i: common.c.i
 
 # target to preprocess a source file
 common.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.i
 .PHONY : common.c.i
 
 common.s: common.c.s
@@ -196,8 +196,8 @@ common.s: common.c.s
 
 # target to generate assembly for a file
 common.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/common.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/common.c.s
 .PHONY : common.c.s
 
 daemon.o: daemon.c.o
@@ -206,8 +206,8 @@ daemon.o: daemon.c.o
 
 # target to build an object file
 daemon.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.o
 .PHONY : daemon.c.o
 
 daemon.i: daemon.c.i
@@ -216,8 +216,8 @@ daemon.i: daemon.c.i
 
 # target to preprocess a source file
 daemon.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.i
 .PHONY : daemon.c.i
 
 daemon.s: daemon.c.s
@@ -226,8 +226,8 @@ daemon.s: daemon.c.s
 
 # target to generate assembly for a file
 daemon.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/daemon.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/daemon.c.s
 .PHONY : daemon.c.s
 
 encrypt.o: encrypt.c.o
@@ -236,8 +236,8 @@ encrypt.o: encrypt.c.o
 
 # target to build an object file
 encrypt.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.o
 .PHONY : encrypt.c.o
 
 encrypt.i: encrypt.c.i
@@ -246,8 +246,8 @@ encrypt.i: encrypt.c.i
 
 # target to preprocess a source file
 encrypt.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.i
 .PHONY : encrypt.c.i
 
 encrypt.s: encrypt.c.s
@@ -256,8 +256,8 @@ encrypt.s: encrypt.c.s
 
 # target to generate assembly for a file
 encrypt.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/encrypt.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/encrypt.c.s
 .PHONY : encrypt.c.s
 
 eventloop.o: eventloop.c.o
@@ -266,8 +266,8 @@ eventloop.o: eventloop.c.o
 
 # target to build an object file
 eventloop.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.o
 .PHONY : eventloop.c.o
 
 eventloop.i: eventloop.c.i
@@ -276,8 +276,8 @@ eventloop.i: eventloop.c.i
 
 # target to preprocess a source file
 eventloop.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.i
 .PHONY : eventloop.c.i
 
 eventloop.s: eventloop.c.s
@@ -286,8 +286,8 @@ eventloop.s: eventloop.c.s
 
 # target to generate assembly for a file
 eventloop.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/eventloop.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/eventloop.c.s
 .PHONY : eventloop.c.s
 
 json/cJSON.o: json/cJSON.c.o
@@ -296,8 +296,8 @@ json/cJSON.o: json/cJSON.c.o
 
 # target to build an object file
 json/cJSON.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.o
 .PHONY : json/cJSON.c.o
 
 json/cJSON.i: json/cJSON.c.i
@@ -306,8 +306,8 @@ json/cJSON.i: json/cJSON.c.i
 
 # target to preprocess a source file
 json/cJSON.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.i
 .PHONY : json/cJSON.c.i
 
 json/cJSON.s: json/cJSON.c.s
@@ -316,8 +316,8 @@ json/cJSON.s: json/cJSON.c.s
 
 # target to generate assembly for a file
 json/cJSON.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/json/cJSON.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/json/cJSON.c.s
 .PHONY : json/cJSON.c.s
 
 local.o: local.c.o
@@ -326,7 +326,7 @@ local.o: local.c.o
 
 # target to build an object file
 local.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.o
 .PHONY : local.c.o
 
 local.i: local.c.i
@@ -335,7 +335,7 @@ local.i: local.c.i
 
 # target to preprocess a source file
 local.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.i
 .PHONY : local.c.i
 
 local.s: local.c.s
@@ -344,7 +344,7 @@ local.s: local.c.s
 
 # target to generate assembly for a file
 local.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/local.c.s
 .PHONY : local.c.s
 
 log.o: log.c.o
@@ -353,8 +353,8 @@ log.o: log.c.o
 
 # target to build an object file
 log.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.o
 .PHONY : log.c.o
 
 log.i: log.c.i
@@ -363,8 +363,8 @@ log.i: log.c.i
 
 # target to preprocess a source file
 log.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.i
 .PHONY : log.c.i
 
 log.s: log.c.s
@@ -373,8 +373,8 @@ log.s: log.c.s
 
 # target to generate assembly for a file
 log.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/log.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/log.c.s
 .PHONY : log.c.s
 
 server.o: server.c.o
@@ -383,7 +383,7 @@ server.o: server.c.o
 
 # target to build an object file
 server.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.o
 .PHONY : server.c.o
 
 server.i: server.c.i
@@ -392,7 +392,7 @@ server.i: server.c.i
 
 # target to preprocess a source file
 server.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.i
 .PHONY : server.c.i
 
 server.s: server.c.s
@@ -401,7 +401,7 @@ server.s: server.c.s
 
 # target to generate assembly for a file
 server.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/server.c.s
 .PHONY : server.c.s
 
 shell.o: shell.c.o
@@ -410,8 +410,8 @@ shell.o: shell.c.o
 
 # target to build an object file
 shell.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.o
 .PHONY : shell.c.o
 
 shell.i: shell.c.i
@@ -420,8 +420,8 @@ shell.i: shell.c.i
 
 # target to preprocess a source file
 shell.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.i
 .PHONY : shell.c.i
 
 shell.s: shell.c.s
@@ -430,8 +430,8 @@ shell.s: shell.c.s
 
 # target to generate assembly for a file
 shell.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/shell.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/shell.c.s
 .PHONY : shell.c.s
 
 tcprelay.o: tcprelay.c.o
@@ -440,8 +440,8 @@ tcprelay.o: tcprelay.c.o
 
 # target to build an object file
 tcprelay.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.o
 .PHONY : tcprelay.c.o
 
 tcprelay.i: tcprelay.c.i
@@ -450,8 +450,8 @@ tcprelay.i: tcprelay.c.i
 
 # target to preprocess a source file
 tcprelay.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.i
 .PHONY : tcprelay.c.i
 
 tcprelay.s: tcprelay.c.s
@@ -460,8 +460,8 @@ tcprelay.s: tcprelay.c.s
 
 # target to generate assembly for a file
 tcprelay.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/tcprelay.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/tcprelay.c.s
 .PHONY : tcprelay.c.s
 
 udprelay.o: udprelay.c.o
@@ -470,8 +470,8 @@ udprelay.o: udprelay.c.o
 
 # target to build an object file
 udprelay.c.o:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.o
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.o
 .PHONY : udprelay.c.o
 
 udprelay.i: udprelay.c.i
@@ -480,8 +480,8 @@ udprelay.i: udprelay.c.i
 
 # target to preprocess a source file
 udprelay.c.i:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.i
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.i
 .PHONY : udprelay.c.i
 
 udprelay.s: udprelay.c.s
@@ -490,9 +490,69 @@ udprelay.s: udprelay.c.s
 
 # target to generate assembly for a file
 udprelay.c.s:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.s
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/udprelay.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/udprelay.c.s
 .PHONY : udprelay.c.s
+
+utils/fd_map.o: utils/fd_map.c.o
+
+.PHONY : utils/fd_map.o
+
+# target to build an object file
+utils/fd_map.c.o:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/fd_map.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/fd_map.c.o
+.PHONY : utils/fd_map.c.o
+
+utils/fd_map.i: utils/fd_map.c.i
+
+.PHONY : utils/fd_map.i
+
+# target to preprocess a source file
+utils/fd_map.c.i:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/fd_map.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/fd_map.c.i
+.PHONY : utils/fd_map.c.i
+
+utils/fd_map.s: utils/fd_map.c.s
+
+.PHONY : utils/fd_map.s
+
+# target to generate assembly for a file
+utils/fd_map.c.s:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/fd_map.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/fd_map.c.s
+.PHONY : utils/fd_map.c.s
+
+utils/lru_cache.o: utils/lru_cache.c.o
+
+.PHONY : utils/lru_cache.o
+
+# target to build an object file
+utils/lru_cache.c.o:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/lru_cache.c.o
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/lru_cache.c.o
+.PHONY : utils/lru_cache.c.o
+
+utils/lru_cache.i: utils/lru_cache.c.i
+
+.PHONY : utils/lru_cache.i
+
+# target to preprocess a source file
+utils/lru_cache.c.i:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/lru_cache.c.i
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/lru_cache.c.i
+.PHONY : utils/lru_cache.c.i
+
+utils/lru_cache.s: utils/lru_cache.c.s
+
+.PHONY : utils/lru_cache.s
+
+# target to generate assembly for a file
+utils/lru_cache.c.s:
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/local.dir/build.make src/CMakeFiles/local.dir/utils/lru_cache.c.s
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/utils/lru_cache.c.s
+.PHONY : utils/lru_cache.c.s
 
 # Help Target
 help:
@@ -540,6 +600,12 @@ help:
 	@echo "... udprelay.o"
 	@echo "... udprelay.i"
 	@echo "... udprelay.s"
+	@echo "... utils/fd_map.o"
+	@echo "... utils/fd_map.i"
+	@echo "... utils/fd_map.s"
+	@echo "... utils/lru_cache.o"
+	@echo "... utils/lru_cache.i"
+	@echo "... utils/lru_cache.s"
 .PHONY : help
 
 
@@ -551,6 +617,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

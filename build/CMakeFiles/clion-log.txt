@@ -1,4 +1,4 @@
-/opt/CLion/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jack/CLionProjects/shadowsocks_c
+/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/jack/CLionProjects/shadowsocks_c/build
+-- Build files have been written to: /media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/build

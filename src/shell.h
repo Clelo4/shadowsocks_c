@@ -7,11 +7,11 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <zconf.h>
 #include <stdlib.h>
 #include <string.h>
 #include <getopt.h>
 #include <sys/stat.h>
+#include <limits.h>
 #include "json/cJSON.h"
 #include "common.h"
 #include <stdint.h>

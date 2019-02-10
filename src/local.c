@@ -35,5 +35,5 @@ int main(int argc, char *argv[]) {
     daemon_set_user(config.user);
 
     // Loop start
-    run_event(&ss_event);
+//    run_event(&ss_event);
 }

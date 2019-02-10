@@ -42,9 +42,8 @@ void log_quit(int errnoflag, const char *fmt, ...) {
 }
 
 static void log_doit(int errnoflag, int level, const char * fmt, va_list ap) {
-    int errno_save, n;
+    int n;
     char buf[LOG_MAX_LENGTH + 1];
-    errno_save = errno;
 #ifdef __USE_ISOC99
     vsnprintf(buf, LOG_MAX_LENGTH, fmt, ap);
 #else
@@ -52,7 +51,7 @@ static void log_doit(int errnoflag, int level, const char * fmt, va_list ap) {
 #endif
     n = strlen(buf);
     if (errnoflag)
-        snprintf(buf + n, LOG_MAX_LENGTH - n, ": %s", strerror(errno_save));
+        snprintf(buf + n, LOG_MAX_LENGTH - n, ": %s", strerror(errnoflag));
     strcat(buf, "\n");
 
     fflush(stdout);

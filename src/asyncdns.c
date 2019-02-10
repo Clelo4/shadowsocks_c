@@ -27,13 +27,22 @@ int _add_to_loop_dns(struct DNSResolver *this, struct ss_eventLoop* loop) {
         return -1;
     }
 
-    this->_loop->add(this->_sock, POLL_IN, this);
-    this->_loop->add_periodic(this->handle_periodic);
+    this->_loop->add(loop, this->_sock, POLLIN, this);
+    this->_loop->add_periodic(loop, this->handle_periodic);
     return 0;
 }
 
-void init_DNSResolver(struct DNSResolver *res) {
-    if (!res) return;
-    res->add_to_loop = &_add_to_loop_dns;
-    res->_loop = NULL;
+void _handle_periodic_dns(struct DNSResolver *this) {
+
+}
+
+int init_DNSResolver(struct DNSResolver *this) {
+    if (!this) return;
+    this->add_to_loop = &_add_to_loop_dns;
+    this->handle_periodic = &_handle_periodic_dns;
+    this->_loop = NULL;
+}
+
+void delete_DNSResolver(struct DNSResolver *this) {
+
 }

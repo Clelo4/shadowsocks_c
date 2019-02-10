@@ -8,7 +8,7 @@ set(SOURCE_FILES
         daemon.c daemon.h
         asyncdns.c asyncdns.h
         common.c common.h
-        log.c log.h)
+        log.c log.h utils/fd_map.c utils/fd_map.h utils/lru_cache.c utils/lru_cache.h)
 
 add_executable(local local.c ${SOURCE_FILES})
 add_executable(server server.c ${SOURCE_FILES})

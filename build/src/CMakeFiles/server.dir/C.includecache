@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.c
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.c
 fcntl.h
 -
 asyncdns.h
-/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.h
 
-/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/asyncdns.h
 eventloop.h
-/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
 
-/home/jack/CLionProjects/shadowsocks_c/src/common.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/common.h
 ctype.h
 -
 regex.h
@@ -24,28 +24,52 @@ regex.h
 stdlib.h
 -
 
-/home/jack/CLionProjects/shadowsocks_c/src/encrypt.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/encrypt.h
 
-/home/jack/CLionProjects/shadowsocks_c/src/eventloop.c
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/eventloop.c
 eventloop.h
-/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
 
-/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/eventloop.h
 shell.h
-/home/jack/CLionProjects/shadowsocks_c/src/shell.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/shell.h
 time.h
 -
+signal.h
+-
+poll.h
+-
+errno.h
+-
+log.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/log.h
+utils/fd_map.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/utils/fd_map.h
+math.h
+-
 
-/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.h
 stddef.h
 -
 
-/home/jack/CLionProjects/shadowsocks_c/src/shell.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/log.h
+stdio.h
+-
+stdarg.h
+-
+syslog.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/shell.h
 stdio.h
 -
 unistd.h
--
-zconf.h
 -
 stdlib.h
 -
@@ -55,10 +79,12 @@ getopt.h
 -
 sys/stat.h
 -
+limits.h
+-
 json/cJSON.h
-/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/json/cJSON.h
 common.h
-/home/jack/CLionProjects/shadowsocks_c/src/common.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/common.h
 stdint.h
 -
 arpa/inet.h
@@ -66,5 +92,11 @@ arpa/inet.h
 bits/socket.h
 -
 encrypt.h
-/home/jack/CLionProjects/shadowsocks_c/src/encrypt.h
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/encrypt.h
+
+/media/jack/176a013f-761b-4d68-9653-03ef516584ed/home/jack/CLionProjects/shadowsocks_c/src/utils/fd_map.h
+stddef.h
+-
+stdlib.h
+-
 

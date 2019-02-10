@@ -8,6 +8,11 @@
 #include "shell.h"
 #include <time.h>
 #include <signal.h>
+#include <poll.h>
+#include <errno.h>
+#include "log.h"
+#include "utils/fd_map.h"
+#include <math.h>
 
 #ifndef SS_POLL_NULL
 #define SS_POLL_NULL 0x00
@@ -37,34 +42,25 @@
 #define TIMEOUT_PRECISION 10
 
 struct ss_eventLoop {
-    void (*_impl)(); /* I/O Multiplexing Function */
+    void (*_impl)(struct ss_eventLoop *this); /* I/O Multiplexing Function */
     void (* add)(struct ss_eventLoop *this, FILE *stream, int mode, void *handler);
-    void (* poll)(struct ss_eventLoop *this, int timeout);
+    int (* _poll)(struct ss_eventLoop *this, int timeout);
     void (* remove)(struct ss_eventLoop *this, FILE *stream);
     void (* add_periodic)(struct ss_eventLoop *this, void *callback);
     void (* remove_periodic)(struct ss_eventLoop *this, void *callback);
     void (* modify)(struct ss_eventLoop *this, FILE *stream, int mode);
     void (* stop)(struct ss_eventLoop *this);
-    void (* run)();
+    int (* run)();
 
     enum MODE_TYPE { EPOLL = 1, KQUEUE = 2, SELECT = 3 };
     enum MODE_TYPE model;
     int _stopping;
-    int _fdmap;
+    fd_map _fdmap;   /* fd as index */
+    struct pollfd *fds;   /* For poll function */
     time_t _last_time;
-    int _periodic_callbacks;
-
 };
 
-int run_event(struct ss_eventLoop *event);
-//void _add(struct ss_eventLoop *this, FILE *stream, int mode, void *handler);
-//void _poll(struct ss_eventLoop *this, int timeout);
-//void _remove(struct ss_eventLoop *this, FILE *stream);
-//void _add_periodic(struct ss_eventLoop *this, void *callback);
-//void _remove_periodic(struct ss_eventLoop *this, void *callback);
-//void _modify(struct ss_eventLoop *this, FILE *stream, int mode);
-//void _stop(struct ss_eventLoop *this);
-//void _run();
+int _run(struct ss_eventLoop *event);
 
 void init_ss_eventLoop(struct ss_eventLoop *loop);
 void delete_ss_eventLoop(struct ss_eventLoop *loop);
